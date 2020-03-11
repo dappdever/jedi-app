@@ -77,9 +77,4 @@ func main () {
 	now := time.Now()
 
 	testMessageTransfer(state, TestHierarchy, "a/b/c", now, quote1)
-
-	params, masterKey := wkdibe.Setup(3, true)
-
-	fmt.Println("params: ", params)
-	fmt.Println("masterKey: ", masterKey)
 }
